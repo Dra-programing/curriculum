@@ -1,0 +1,132 @@
+.wrapper {
+    width: 400px;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header {
+    background-color: #141f40;
+    height: 100px;
+    width: 400px;
+    position: relative;
+}
+.insideHeader {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height:60px;
+    width: 160px;
+    background-color: #fff;
+}
+.contentsHeader{
+    height: 40px;
+    width: 40px;
+    background-color: #a9004b;
+    float: left;
+    margin: 10px 0 10px 10px;
+}
+.left {
+    background-color: #80dfa8;
+    width: 150px;
+    height: 250px;
+    float: left;
+}
+.right {
+    background-color: #8c2727;
+    width: 250px;
+    height: 250px;
+    float: left;
+    position: relative;
+}
+.insideRightFirst {
+    position: absolute;
+    height: 50px;
+    left: 40px;
+    right: 60px;
+    width: 150px;
+    top: 40px;
+    background-color: #fff;
+}
+.insideRightSecond {
+    position: absolute;
+    height: 50px;
+    left: 40px;
+    right: 60px;
+    width: 150px;
+    top: 100px;
+    background-color: #fff;
+}
+.insideRightThird {
+    position: absolute;
+    height: 50px;
+    left: 40px;
+    right: 60px;
+    width: 150px;
+    top: 160px;
+    background-color: #fff;
+}
+.contentsRight {
+    background-color: #ff863f;
+    height: 40px;
+    width: 140px;
+    margin: 5px;
+}
+.footer {
+    background-color: #d98d30;
+    height: 100px;
+    width: 400px;
+}
+
+@media screen and (max-width: 479px) {
+    .wrapper {
+        width: 200px;
+    }
+    .header {
+        width: 200px;
+        height: 200px;
+    }
+    .insideHeader {
+        width: 60px;
+        height: 160px;
+        left: 70px;
+    }
+    .contentsHeader {
+        margin: 10px 0 0 10px;
+    }
+    .left {
+        width: 200px;
+        height: 100px;
+    }
+    .right {
+        width: 200px;
+        height: 210px;
+    }
+    .insideRightFirst {
+        top: 20px;
+        left: 30px;
+        width: 140px;
+        right: none;
+    }
+    .insideRightSecond {
+        top: 80px;
+        left: 30px;
+        width: 140px;
+        right: none;
+    }
+    .insideRightThird {
+        top: 140px;
+        width: 140px;
+        left: 30px;
+        right: none;
+    }
+    .contentsRight {
+        width: 130px;
+    }
+    .footer {
+        width: 200px;
+    }
+}
