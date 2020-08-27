@@ -1,0 +1,50 @@
+.wrapper {
+    width: 600px;
+    height: 600px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.header {
+    background-color: #ffff00;
+    height: 150px;
+    width: 600px;
+    float: left;
+}
+.skyblue {
+    background-color: #33ffff;
+    height: 150px;
+    width: 200px;
+    float: left;
+}
+.red {
+    background-color: #ff0000;
+    height: 150px;
+    width: 200px;
+    float: left;
+}
+.blue{
+    background-color: #0000ff;
+    height: 150px;
+    width: 200px;
+    float: left;
+}
+.green {
+    background-color: #00ff00;
+    height: 150px;
+    width: 450px;
+    float: left;
+}
+.purple {
+    background-color: #ff00ff;
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+.footer {
+    background-color: #33ffff;
+    height: 150px;
+    width: 600px;
+}
